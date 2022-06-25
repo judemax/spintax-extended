@@ -1,6 +1,6 @@
 ### Spintax extended
 
-Node.js library to parse spintax formatted text
+Node.js library to parse spintax formatted text. The library also supports the extended spintex format.
 
 ### Instalation
 
@@ -19,7 +19,7 @@ spintax.unspin("[+_+Red|White|Blue]"); //#"Red_Blue_White" ...
 spintax.unspin("[+{_|-}+Red|White|Blue {1|2}]"); //#"White-Blue 2-Red" ...
 ```
 
-You may escape special characters:
+You may escape special characters if you need:
 
 ```js
 const spintax = require('spintax-extended');
