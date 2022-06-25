@@ -1,13 +1,32 @@
 {
-	"name":"spintax-extended",
-	"version":"0.0.1",
-	"description":"Node.js library to parse spintax extended formatted text",
-	"keywords":["spintax","text","spam","seo","substitute","substitution","unspin"],
-	"author":"Jude Max <judemaxgthb@gmail.com>",
-	"homepage":"https://github.com/judemax/spintax-extended",
-	"repository":{
-		"type":"git",
-		"url":"git://github.com/judemax/spintax-extended.git"
-	},
-	"main":"index"
+  "name": "spintax-extended",
+  "version": "0.0.1",
+  "description": "Node.js library to parse spintax extended formatted text",
+  "keywords": [
+    "spintax",
+    "text",
+    "spam",
+    "seo",
+    "substitute",
+    "substitution",
+    "unspin"
+  ],
+  "author": "Jude Max <judemaxgthb@gmail.com>",
+  "homepage": "https://github.com/judemax/spintax-extended",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/judemax/spintax-extended.git"
+  },
+  "main": "index",
+  "bugs": {
+    "url": "https://github.com/judemax/spintax-extended/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "GPL-3.0"
 }
