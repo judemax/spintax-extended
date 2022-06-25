@@ -1,0 +1,13 @@
+{
+	"name":"spintax-extended",
+	"version":"0.0.1",
+	"description":"Node.js library to parse spintax extended formatted text",
+	"keywords":["spintax","text","spam","seo","substitute","substitution","unspin"],
+	"author":"Jude Max <judemaxgthb@gmail.com>",
+	"homepage":"https://github.com/judemax/spintax-extended",
+	"repository":{
+		"type":"git",
+		"url":"git://github.com/judemax/spintax-extended.git"
+	},
+	"main":"index"
+}
