@@ -25,3 +25,11 @@ You may escape special characters if you need:
 const spintax = require('spintax-extended');
 spintax.unspin("[+\\++Red|\\[White\\]|Blue]"); //#"[White]+Red+Blue" ...
 ```
+
+You can count all possible variations:
+
+```js
+const spintax = require('spintax-extended');
+spintax.countVariations("[+{_|-}+Red|White|Blue {1|2}]"); //24
+spintax.countVariations("A[Red|2 [+\\++Whi|Te] {1|2}|Blue]"); //24
+```
