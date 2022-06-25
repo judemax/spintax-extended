@@ -2,10 +2,6 @@
 
 Node.js library to parse spintax formatted text
 
-### Installation
-
-    $ npm install spintax
-
 ### Examples
 
 ```js
