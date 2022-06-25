@@ -33,3 +33,6 @@ const spintax = require('spintax-extended');
 spintax.countVariations("[+{_|-}+Red|White|Blue {1|2}]"); //24
 spintax.countVariations("A[Red|2 [+\\++Whi|Te] {1|2}|Blue]"); //24
 ```
+
+More examples in the `examples` folder.
+
