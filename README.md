@@ -2,7 +2,7 @@
 
 Node.js library to parse spintax formatted text
 
-###Instalation
+### Instalation
 
     $ npm install spintax-extended
 
