@@ -8,3 +8,6 @@ console.log(Spintax.unspin("[Red|White|Blue]"));
 console.log(Spintax.unspin("[+_+Red|White|Blue]"));
 console.log(Spintax.unspin("[+{_|-}+Red|White|Blue {1|2}]"));
 console.log(Spintax.unspin("[+\\++Red|\\[White\\]|Blue]"));
+
+//Always "Oh, look, White water!" for index 1:
+console.log(Spintax.unspinByIndex("Oh, look, {Red|White|Blue} {water|star|color}!",1));
