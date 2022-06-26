@@ -34,5 +34,14 @@ spintax.countVariations("[+{_|-}+Red|White|Blue {1|2}]"); //24
 spintax.countVariations("A[Red|2 [+\\++Whi|Te] {1|2}|Blue]"); //24
 ```
 
+You can also use OOP to avoid parsing every time:
+
+```js
+const Spintax = require('spintax-extended');
+const spintax = new Spintax("[+{_|-}+Red|White|Blue {1|2}]");
+console.log(spintax.unspin()); //Red-Blue 1-White
+console.log(spintax.countVariations()); //24
+```
+
 More examples in the `examples` folder.
 
