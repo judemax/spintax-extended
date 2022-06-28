@@ -1,6 +1,8 @@
 ### Spintax extended
 
-Node.js library to parse spintax formatted text. The library also supports the extended spintex format.
+Node.js library to parse spintax formatted text. 
+The library also supports the extended spintex format.
+Your spintax text can be any nesting level.
 
 ### Installation
 
