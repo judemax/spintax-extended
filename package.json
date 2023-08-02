@@ -1,6 +1,6 @@
 {
   "name": "spintax-extended",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Node.js library to parse spintax extended formatted text",
   "keywords": [
     "spintax",
@@ -18,6 +18,7 @@
     "url": "git://github.com/judemax/spintax-extended.git"
   },
   "main": "index",
+  "types" "./@types/lib/spintax.d.ts",
   "bugs": {
     "url": "https://github.com/judemax/spintax-extended/issues"
   },
