@@ -18,7 +18,7 @@
     "url": "git://github.com/judemax/spintax-extended.git"
   },
   "main": "index",
-  "types" "./@types/lib/spintax.d.ts",
+  "types": "./@types/lib/spintax.d.ts",
   "bugs": {
     "url": "https://github.com/judemax/spintax-extended/issues"
   },
