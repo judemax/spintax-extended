@@ -1,6 +1,6 @@
 {
   "name": "spintax-extended",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Node.js library to parse spintax extended formatted text",
   "keywords": [
     "spintax",

@@ -11,3 +11,4 @@ console.log(Spintax.isCorrect("[+\\++Red|\\[White\\]|Blue]")); //true
 console.log(Spintax.isCorrect("A[Red|2 [+\\++Whi|Te]}{ {1|2}|Blue]")); //false
 console.log(Spintax.isCorrect("A[Red|2 [+\\++Whi|Te] {1|[2}]|Blue]")); //false
 console.log(Spintax.isCorrect("[Red|{White|Blue]")); //false
+console.log(Spintax.isCorrect("Red|White|Blue}")); //false
